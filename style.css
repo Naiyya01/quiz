@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+body{
+	font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+	color: #fff;
+	background-color:blue;
+	margin: 0;
+}
+h1{
+	font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+
+.answers label{
+  display: block;
+}
+
+button{
+	font-size: 20px;
+	background-color:lightblue;
+	color:black;
+	border: 0px;
+	border-radius: 3px;
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: skyblue;
+}  
+
+.container-float{
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
+}
+
+.userName-label{
+	font-size: 1rem;
+}
+
+#userName{
+	border: none;
+	border-bottom: 3px solid darkblue;
+	background: none;
+	outline: none;
+	color: #fff;
+    margin-bottom: 10px;
+}
+
+label{
+	margin-bottom: 0.5rem;
+}
+
+#results{
+	display: flex;
+	align-items: center;
+}
