@@ -2,7 +2,7 @@ const quizQuestions = document.getElementById('quiz');
 const submitButton = document.getElementById('submit');
 const results = document.getElementById('results');
 const newGame = document.getElementById('newGame');
-const userName = document.getElementById('name');
+const userName = document.getElementById('userName');
 const heading = document.querySelector('span');
 
 const questions = [{
